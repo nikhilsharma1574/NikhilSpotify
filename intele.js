@@ -205,17 +205,17 @@ st12.onclick = function () {
 // Songs play list onclick functions
 
 function english() {
-  window.open("english.html", "windowName");
+  window.open("english.html","_self");
 };
 function hindi() {
-  window.open("hindi.html", "windowName");
+  window.open("hindi.html","_self");
 };
 function daily() {
-  window.open("dailymix.html", "windowName");
+  window.open("dailymix.html", "_self");
 };
 function liked() {
-  window.open("liked.html", "windowName");
+  window.open("liked.html", "_self");
 };
 function punjabi() {
-  window.open("punjabi.html", "windowName");
+  window.open("punjabi.html", "_self");
 };
