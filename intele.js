@@ -73,72 +73,204 @@ playicon.onclick = function()
 so1.onclick = function()
 {
   teresiva.play();
-  document.getElementById("plai1").innerHTML = "Playing....";
+  warr.pause();
+  sau.pause();
+  levi.pause();
+  rabba.pause();
+  kinna.pause();
+  watr.pause();
+  animals.pause();
+  just.pause();
+  vac.pause();
+  stars.pause();
+  gym.pause();
+  document.getElementById("plai1").innerHTML = "DONT PLAY THIS SONG GO FOR NXT ONE";
   document.getElementById("live_name").innerHTML = "Tere Siva";
   live.src = "Tere Siva.jpg";
 }
 so2.onclick = function () {
   warr.play();
+  teresiva.pause();
+  sau.pause();
+  levi.pause();
+  rabba.pause();
+  kinna.pause();
+  watr.pause();
+  animals.pause();
+  just.pause();
+  vac.pause();
+  stars.pause();
+  gym.pause();
   document.getElementById("plai2").innerHTML = "Playing....";
   document.getElementById("live_name").innerHTML = "Imagine Dragons - Warriors";
   live.src = "warriors.jpg";
 }
 so3.onclick = function () {
   sau.play();
+  teresiva.pause();
+  warr.pause();
+  levi.pause();
+  rabba.pause();
+  kinna.pause();
+  watr.pause();
+  animals.pause();
+  just.pause();
+  vac.pause();
+  stars.pause();
+  gym.pause();
   document.getElementById("plai3").innerHTML = "Playing....";
   document.getElementById("live_name").innerHTML ="Tere Siva - Darshan Raval | Official Music Video 2016";
   live.src = "sauasma.jpg";
 }
 so4.onclick = function () {
   levi.play();
+  teresiva.pause();
+  warr.pause();
+  sau.pause();
+  rabba.pause();
+  kinna.pause();
+  watr.pause();
+  animals.pause();
+  just.pause();
+  vac.pause();
+  stars.pause();
+  gym.pause();
   document.getElementById("plai4").innerHTML = "Playing....";
   document.getElementById("live_name").innerHTML = "Levigating -Dua Lipa";
   live.src = "levigating.jpg";
 }
 so5.onclick = function () {
   rabba.play();
+  teresiva.pause();
+  warr.pause();
+  sau.pause();
+  levi.pause();
+  kinna.pause();
+  watr.pause();
+  animals.pause();
+  just.pause();
+  vac.pause();
+  stars.pause();
+  gym.pause();
   document.getElementById("plai5").innerHTML = "Playing....";
   document.getElementById("live_name").innerHTML ="Rabba Mehar Kari - Darshan Raval";
   live.src = "Rabba Mehar Kari.jpg";
 }
 so6.onclick = function () {
   kinna.play();
+  teresiva.pause();
+  warr.pause();
+  sau.pause();
+  levi.pause();
+  rabba.pause();
+  watr.pause();
+  animals.pause();
+  just.pause();
+  vac.pause();
+  stars.pause();
+  gym.pause();
   document.getElementById("plai6").innerHTML = "Playing....";
   document.getElementById("live_name").innerHTML = "Kinna Sona";
   live.src = "Rabba Mehar Kari.jpg";
 }
 so7.onclick = function () {
   watr.play();
+  teresiva.pause();
+  warr.pause();
+  sau.pause();
+  levi.pause();
+  rabba.pause();
+  kinna.pause();
+  animals.pause();
+  just.pause();
+  vac.pause();
+  stars.pause();
+  gym.pause();
   document.getElementById("plai7").innerHTML = "Playing....";
   document.getElementById("live_name").innerHTML ="Harry Styles - Watermelon Sugar";
   live.src = "watermelons.jpg";
 }
 so8.onclick = function () {
   animals.play();
+  teresiva.pause();
+  warr.pause();
+  sau.pause();
+  levi.pause();
+  rabba.pause();
+  kinna.pause();
+  watr.pause();
+  just.pause();
+  vac.pause();
+  stars.pause();
+  gym.pause();
   document.getElementById("plai8").innerHTML = "Playing....";
   document.getElementById("live_name").innerHTML = "Maroon 5 - Animals";
   live.src = "maroon 5 animals.jpg";
 }
 so9.onclick = function () {
   just.play();
+  teresiva.pause();
+  warr.pause();
+  sau.pause();
+  levi.pause();
+  rabba.pause();
+  kinna.pause();
+  watr.pause();
+  animals.pause();
+  vac.pause();
+  stars.pause();
+  gym.pause();
   document.getElementById("plai9").innerHTML = "Playing....";
   document.getElementById("live_name").innerHTML = "Just Two Of Us";
   live.src = "just the 2 of usss.jpg";
 }
 so10.onclick = function () {
   vac.play();
+  teresiva.pause();
+  warr.pause();
+  sau.pause();
+  levi.pause();
+  rabba.pause();
+  kinna.pause();
+  watr.pause();
+  animals.pause();
+  just.pause();
+  stars.pause();
+  gym.pause();
   document.getElementById("plai10").innerHTML = "Playing....";
   document.getElementById("live_name").innerHTML = "Vacation";
   live.src = "Vacation-feat-Veronica.jpg";
 }
 so11.onclick = function () {
   stars.play();
+  teresiva.pause();
+  warr.pause();
+  sau.pause();
+  levi.pause();
+  rabba.pause();
+  kinna.pause();
+  watr.pause();
+  animals.pause();
+  just.pause();
+  vac.pause();
+  gym.pause();
   document.getElementById("plai11").innerHTML = "Playing....";
   document.getElementById("live_name").innerHTML = "Counting Star";
   live.src = "";
 };
 so12.onclick = function () {
   gym.play();
+  teresiva.pause();
+  warr.pause();
+  sau.pause();
+  levi.pause();
+  rabba.pause();
+  kinna.pause();
+  watr.pause();
+  animals.pause();
+  just.pause();
+  vac.pause();
+  stars.pause();
   document.getElementById("plai12").innerHTML = "Playing....";
   document.getElementById("live_name").innerHTML = "Levigating -Dua Lipa";
   live.src = "watermelons.jpg";
@@ -219,3 +351,18 @@ function liked() {
 function punjabi() {
   window.open("punjabi.html", "_self");
 };
+
+
+
+teresiva.pause();
+warr.pause();
+sau.pause();
+levi.pause();
+rabba.pause();
+kinna.pause();
+watr.pause();
+animals.pause();
+just.pause();
+vac.pause();
+stars.pause();
+gym.pause();
