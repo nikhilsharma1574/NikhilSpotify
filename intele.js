@@ -84,7 +84,7 @@ so1.onclick = function()
   vac.pause();
   stars.pause();
   gym.pause();
-  document.getElementById("plai1").innerHTML = "DONT PLAY THIS SONG GO FOR NXT ONE";
+  document.getElementById("plai1").innerHTML = "Playing....";
   document.getElementById("live_name").innerHTML = "Tere Siva";
   live.src = "Tere Siva.jpg";
 }
@@ -284,7 +284,7 @@ stopicon.onclick = function ()
 };
 st1.onclick = function () {
   teresiva.pause();
-  document.getElementById("plai2").innerHTML = "";
+  document.getElementById("plai1").innerHTML = "";
 };
 
 st2.onclick = function () {
