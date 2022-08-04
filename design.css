@@ -86,6 +86,8 @@ background: #292929;
     background-image: linear-gradient(to bottom, #333333, #282828, #1d1d1d, #121212, #000000);
     margin-left: 18%;
     height: fit-content;
+    margin: 0;
+    padding: 0;
 }
 .upgrade
 {
